@@ -1,5 +1,7 @@
 # Debounce Query Parameters
 
+[![Build Status](https://travis-ci.org/albertodotcom/debounce-query-params.svg)](https://travis-ci.org/albertodotcom/debounce-query-params)
+
 This addon allows for updating queryParams with a defined debounce.
 It has been specifically designed to solve the following issue:
 1 - You have a model you want to update when a query param changes;
