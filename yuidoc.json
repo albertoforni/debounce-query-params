@@ -1,0 +1,12 @@
+{
+  "name": "debounce-query-params",
+  "description": "Debounce the query params update.",
+  "version": "0.0.0",
+  "options": {
+    "paths": [
+      "addon"
+    ],
+    "exclude": "vendor",
+    "outdir": "docs"
+  }
+}
