@@ -1,6 +1,6 @@
 {
   "name": "debounce-query-params",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Debounce the query params update.",
   "directories": {
     "doc": "doc",
