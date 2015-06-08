@@ -1,7 +1,7 @@
 {
-  "name": "delay-query-params",
+  "name": "debounce-query-params",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Debounce the query params update.",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -35,7 +35,9 @@
     "ember-try": "0.0.6"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "queryParams",
+    "debounce-query-params"
   ],
   "dependencies": {
     "ember-cli-babel": "^5.0.0"
