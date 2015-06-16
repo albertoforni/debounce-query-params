@@ -4,6 +4,7 @@
 
 This addon allows for updating queryParams with a defined debounce.
 It has been specifically designed to solve the following issue:
+
 1 - You have a model you want to update when a query param changes;
 2 - You don't want to update the history if the users is changing the param in a certain time interval;
 
