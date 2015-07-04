@@ -1,6 +1,6 @@
 {
   "name": "debounce-query-params",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Debounce the query params update.",
   "directories": {
     "doc": "doc",
@@ -15,7 +15,7 @@
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "Alberto Forni",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.0.2",

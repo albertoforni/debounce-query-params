@@ -35,6 +35,16 @@ export default Ember.Controller.extend(DebounceQueryParams, {
 });
 ```
 
+Then in your template use `debounce_propertyName` to refer to the query parameter
+```html
+<h2 id="title">Welcome to Ember.js</h2>
+
+<div>
+  <label>search: {{input id='search' value=debounce_search}}</label>
+  <label>filter: {{input id='filter' value=filter}}</label>
+</div>
+```
+
 If you want to update the model the underneath model when the search param changes:
 
 `route.js`
@@ -59,7 +69,7 @@ export default Ember.Route.extend({
 ```
 
 ## Api Documentation
-This addon consists only of a mixin that you can include in your route-driven controllers.
+This addon consists of only a mixin that you can include in your route-driven controllers.
 It is possible to generate the documentation running `ember ember-cli-yuidoc`.
 
 ## Running Tests
