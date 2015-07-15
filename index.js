@@ -2,5 +2,5 @@
 'use strict';
 
 module.exports = {
-  name: 'delay-query-params'
+  name: 'debounce-query-params'
 };
