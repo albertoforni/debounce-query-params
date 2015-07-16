@@ -58,6 +58,17 @@ export default Ember.Route.extend({
 
 ```
 
+Then in your templates reference the debounced variables by prepending the *debounce_* keyword, like in the following example
+
+```html
+<h2 id="title">Welcome to Ember.js</h2>
+
+<div>
+  <label>search: {{input id='search' value=debounce_search}}</label>
+  <label>filter: {{input id='filter' value=filter}}</label>
+</div>
+```
+
 ## Api Documentation
 This addon consists only of a mixin that you can include in your route-driven controllers.
 It is possible to generate the documentation running `ember ember-cli-yuidoc`.
