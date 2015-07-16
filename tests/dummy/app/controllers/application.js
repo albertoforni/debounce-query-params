@@ -1,5 +1,5 @@
 import Ember from 'ember';
-import DebounceQueryParams from '../mixins/debounce-query-params';
+import DebounceQueryParams from 'debounce-query-params/mixins/debounce-query-params';
 
 export default Ember.Controller.extend(DebounceQueryParams, {
   search: null,

@@ -1,5 +1,5 @@
 import Ember from 'ember';
-import DebounceQueryParamsMixin from '../../../mixins/debounce-query-params';
+import DebounceQueryParamsMixin from 'debounce-query-params/mixins/debounce-query-params';
 import { module, test } from 'qunit';
 import sinon from 'sinon';
 

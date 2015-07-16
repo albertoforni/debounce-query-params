@@ -1,4 +1,3 @@
-import Ember from 'ember';
-import DebounceQueryParams from 'delay-query-params/mixins/debounce-query-params';
+import DebounceQueryParams from 'debounce-query-params/mixins/debounce-query-params';
 
 export default DebounceQueryParams;
