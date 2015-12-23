@@ -20,7 +20,7 @@ In your route-driven controller include the mixin and add the the `debounceQuery
 `controller.js`
 ```javascript
 import Ember from 'ember';
-import DebounceQueryParams from '../mixins/debounce-query-params';
+import DebounceQueryParams from 'debounce-query-params/mixins/debounce-query-params';
 
 export default Ember.Controller.extend(DebounceQueryParams, {
   search: null,
